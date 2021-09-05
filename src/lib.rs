@@ -7,7 +7,7 @@
 //! use std::time::Duration;
 //!
 //! // Allow 3 attempts every 5 seconds
-//! let mut limiter = ratelimit::RateLimiter::new(3, Duration::from_secs(5));
+//! let mut limiter = ratelimiter::RateLimiter::new(3, Duration::from_secs(5));
 //!
 //! println!("{}", limiter.attempt()); // true
 //! println!("{}", limiter.attempt()); // true
