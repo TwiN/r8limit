@@ -1,9 +1,9 @@
 [package]
-name = "ratelimiter"
+name = "r8limit"
 version = "0.1.0"
 edition = "2018"
 description = "Dead simple rate limiter for Rust"
-repository = "https://github.com/TwinProduction/ratelimiter"
+repository = "https://github.com/TwinProduction/r8limit"
 readme = "README.md"
 license = "MIT"
 keywords = ["ratelimiter", "ratelimit", "limit", "rate", "limiter"]

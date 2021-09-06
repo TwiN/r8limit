@@ -2,7 +2,7 @@
 //!
 //! # Example
 //! ```
-//! extern crate ratelimiter;
+//! extern crate r8limit;
 //!
 //! use std::time::Duration;
 //!
