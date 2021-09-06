@@ -2,6 +2,9 @@
 name = "ratelimiter"
 version = "0.1.0"
 edition = "2018"
+description = "Dead simple rate limiter for Rust"
+repository = "https://github.com/TwinProduction/ratelimiter"
+readme = "README.md"
 license = "MIT"
 keywords = ["ratelimiter", "ratelimit", "limit", "rate", "limiter"]
 
