@@ -1,13 +1,18 @@
 //! An extremely simple window rate limiter.
 //!
-//! # Example
+//! # Usage
+//! In your `Cargo.toml`:
+//! ```toml
+//! [dependencies]
+//! r8limit = "0.1"
 //! ```
-//! extern crate r8limit;
 //!
+//! In your code:
+//! ```
 //! use std::time::Duration;
 //!
 //! // Allow 3 attempts every 5 seconds
-//! let mut limiter = ratelimiter::RateLimiter::new(3, Duration::from_secs(5));
+//! let mut limiter = r8limit::RateLimiter::new(3, Duration::from_secs(5));
 //!
 //! println!("{}", limiter.attempt()); // true
 //! println!("{}", limiter.attempt()); // true

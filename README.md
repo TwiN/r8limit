@@ -5,9 +5,14 @@
 A dead simple Rust library for rate limiting.
 
 ## Usage
-```rust
-extern crate r8limit;
+In your `Cargo.toml`:
+```toml
+[dependencies]
+r8limit = "0.1"
+```
 
+In your code:
+```rust
 use std::time::Duration;
 
 fn main() {
