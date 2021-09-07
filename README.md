@@ -8,7 +8,7 @@ A dead simple Rust library for rate limiting.
 In your `Cargo.toml`:
 ```toml
 [dependencies]
-r8limit = "0.1"
+r8limit = "0.2"
 ```
 
 In your code:
