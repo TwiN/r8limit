@@ -1,6 +1,6 @@
 [package]
 name = "r8limit"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2018"
 description = "Dead simple rate limiter for Rust"
 repository = "https://github.com/TwinProduction/r8limit"
