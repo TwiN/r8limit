@@ -64,11 +64,9 @@ impl RateLimiter {
                     } else {
                         // Need to move window and update the executions_left_in_window
                         let percentage_done = self.window_start_time.elapsed().as_secs_f64()/self.window_duration.as_secs_f64();
-                        println!("self.executions_left_in_window={}", self.executions_left_in_window);
                         let executions_due = percentage_done * self.max_executions_per_window;
                         self.window_start_time = Instant::now();
                         self.executions_left_in_window += executions_due;
-                        println!("executions_due={}; self.executions_left_in_window={}", executions_due, self.executions_left_in_window);
                     }
                 }
             }
