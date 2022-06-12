@@ -1,5 +1,6 @@
 # r8limit
 [![Crates.io](https://img.shields.io/crates/v/r8limit)](https://crates.io/crates/r8limit)
+![Downloads](https://img.shields.io/crates/d/r8limit)
 [![docs.rs](https://img.shields.io/badge/docs.rs-rustdoc-green)](https://docs.rs/r8limit)
 
 A dead simple Rust library for rate limiting.
